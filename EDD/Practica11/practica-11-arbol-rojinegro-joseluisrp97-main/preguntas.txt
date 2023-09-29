@@ -1,0 +1,11 @@
+1. ¿Qué ventajas encuentras sobre los árboles AVL? ¿Qué desventajas?
+
+Los árboles Rojinegros son más rápidos en operaciones de inserción y eliminación que los árboles AVL, ya que la operación de balanceo es menos costosa, pero
+los árboles Rojinegros pueden tener una mayor complejidad en la implementación debido a las reglas de coloración de los nodos.
+
+
+2. Desde el punto de vista de orientación a objetos ¿Por qué es válido poner los
+métodos para balancear nodos en NodoBinario? ¿Por qué los demos para árboles
+binarios no balanceados siguen funcionando como antes?
+
+ES válido ya que esta clase representa una entidad que forma parte del árbol y tiene información relevante para el balanceo del árbol. Los métodos para balancear nodos no dependen de una instancia específica de árbol, sino que trabajan con el nodo actual y los nodos hijos y padres del mismo.

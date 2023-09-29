@@ -1,0 +1,8 @@
+1. Dado el diseño de esta clase es posible tener una gráfica donde un vértice esté
+desconectado de todos los demás. Si quisieras impedirlo ¿Cómo lo harías?
+
+Estableciendo una regla que requiera que cada nuevo vértice se conecte a al menos un vértice existente al momento de su creación.
+
+2. ¿Qué necesitarías para implementar el algoritmo de Prim en otra función?
+
+Una estructura de datos que mantenga un seguimiento de los vértices no visitados y la arista de menor peso a estos.

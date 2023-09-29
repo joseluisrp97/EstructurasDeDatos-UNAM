@@ -1,0 +1,6 @@
+ Explique cómo se sabe si se hace una rotación izquierda, derecha o una doble rotación, para balancear el árbol.
+ 
+ Si el nodo tiene factor +2 y su hijo izquierdo tiene factor +1 o 0, aplica una rotación a la derecha.
+Si el nodo tiene factor -2 y su hijo derecho tiene factor -1 o 0, aplica una rotación a la izquierda.
+Si el nodo tiene factor +2 y su hijo izquierdo tiene factor -1, aplica una doble rotación izquierda-derecha.
+Si el nodo tiene factor -2 y su hijo derecho tiene factor +1, aplica una doble rotación derecha-izquierda.

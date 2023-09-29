@@ -1,0 +1,8 @@
+Sucesión de Fibonacci
+Los números en la Secuencia de Fibonacci tienden a tener ciertas relaciones entre sí. 
+Cada número es igual a la suma de los dos números anteriores. 
+Tenemos una regla que está dada por:
+x_n = x_(n-1) + x_(n-2) con n en los Naturales
+donde:
+x_(n-1) es el término previo (n-1)
+x_(n-2) es el término previo a ese (n-2)

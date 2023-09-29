@@ -1,0 +1,8 @@
+1. Explica, para esta implementación, cómo funciona el método empuja.
+El método añade un nuevo elemento a la pila. Primero checa si el elemento a insertar no es nulo y si es así, lanza una excepción. Después, checa si la pila está vacía, en cuyo caso crea un nuevo nodo con el elemento a insertar y lo establece como la cabeza de la pila. Si la pila no está vacía, crea un nuevo nodo con el elemento a insertar y lo establece como la nueva cabeza de la pila, apuntando al nodo que antes era la cabeza. Al final, incrementa el tamaño de la pila.
+
+2. ¿Cuál es la complejidad, en el peor caso, de los métodos mira, expulsa y empuja?
+Mira: O(1), ya que la operación de obtener el dato de la cabeza de la estructura simplemente requiere un acceso directo al primer elemento de la misma
+Expulsa: O(1) ya que solo se realiza una operación de asignación y una operación de acceso al siguiente elemento en la estructura
+Empuja: O(1), ya que la inserción de un elemento se realiza al principio de la pila en una sola operación constante.
+

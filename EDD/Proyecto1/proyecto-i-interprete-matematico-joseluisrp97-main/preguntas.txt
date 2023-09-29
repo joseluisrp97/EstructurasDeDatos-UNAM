@@ -1,0 +1,6 @@
+1. ¿Cuál es el orden de complejidad del algoritmo para evaluar una expresión en notación prefija? Justifica.
+El orden de complejidad del algoritmo es lineal, es decir, O(n), donde n es la cantidad de símbolos en la expresión, puesto que se recorre la expresión una sola vez, y en cada operación se realizan operaciones constantes (sacar y meter elementos en la pila).
+
+2. ¿Cuál es el orden de complejidad del algoritmo para pasar de notación infija a postfija? Justifica.
+
+El orden de complejidad del algoritmo también es lineal, O(n), donde n es el número de símbolos en la expresión infija, puesto que el algoritmo recorre cada símbolo de la expresión infija una sola vez, y realiza operaciones en una pila de tamaño máximo n. Por lo tanto, el tiempo de ejecución del algoritmo es proporcional a la longitud de la expresión infija, lineal.

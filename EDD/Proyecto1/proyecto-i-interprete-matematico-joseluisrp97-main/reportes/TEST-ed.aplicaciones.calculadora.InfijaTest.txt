@@ -1,0 +1,38 @@
+Testsuite: ed.aplicaciones.calculadora.InfijaTest
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.028 sec
+------------- Standard Output ---------------
+Sufija: [2.0, 3.0, +, 4.0, *]
+Sufija: [2.0, 3.0, 1.0, -, +, 4.0, /]
+
+>> evalúaInfijaBasicTest <<
+Sufija: [5.0, -2.0, *]
+[5, *, -2] = -10.0
+
+>> infijaASufijaCompuestaTest <<
+[5, *, (, (, -3, +, -2, ), *, -1, )] -> [5.0, -3.0, -2.0, +, -1.0, *, *]
+
+>> infijaASufijaSimpleTest <<
+[5, *, (, 3, +, -2, )] -> [5.0, 3.0, -2.0, +, *]
+
+>> evalúaInfijaCompuestaTest <<
+Sufija: [5.0, -3.0, -2.0, +, -1.0, *, *]
+[5, *, (, (, -3, +, -2, ), *, -1, )] = 25.0
+
+>> infijaASufijaBasicTest <<
+[5, *, -2] -> [5.0, -2.0, *]
+
+>> evalúaInfijaSimpleTest <<
+Sufija: [5.0, 3.0, -2.0, +, *]
+[5, *, (, 3, +, -2, )] = 5.0
+------------- ---------------- ---------------
+
+Testcase: evaluaInfijaConParentesisTest took 0.003 sec
+Testcase: evaluaInfijaConMultiplesParentesisTest took 0 sec
+Testcase: infijaASufijaConParentesisTest took 0.001 sec
+Testcase: evalúaInfijaBasicTest took 0.009 sec
+Testcase: infijaASufijaCompuestaTest took 0.002 sec
+Testcase: infijaASufijaSimpleTest took 0 sec
+Testcase: evalúaInfijaCompuestaTest took 0.001 sec
+Testcase: infijaASufijaBasicTest took 0 sec
+Testcase: evalúaInfijaSimpleTest took 0 sec
+Testcase: infijaASufijaConMultiplesParentesisTest took 0 sec

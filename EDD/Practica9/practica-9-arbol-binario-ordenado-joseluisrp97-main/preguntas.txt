@@ -1,0 +1,6 @@
+1. Si se añaden los números del 1 al 10 en orden y luego se pregunta si el 10 están el árbol ¿cuál es la complejidad?
+O(n), porque al agregar los números en orden, se forma un árbol degenerado o, en otras palabras, una lista enlazada. En ese caso, el árbol no está balanceado y cada nuevo elemento se agrega como hijo derecho del nodo anterior. 
+
+2. Si se añaden los números en un orden aleatorio ¿cuál es la complejidad promedio
+de preguntar por el 10?
+O(log n) porque el árbol tiende a estar más balanceado, lo que significa que la altura del árbol es aproximadamente logarítmica en función del número de nodos (n). 

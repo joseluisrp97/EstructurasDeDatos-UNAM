@@ -1,0 +1,18 @@
+1. ¿Qué técnica utilizas para detectar cuando la cola está vacía?
+La comparación del tamaño de la cola con cero. Si la cola está vacía, tam será igual a cero, por lo que isEmpty() devolverá true
+
+2. ¿Qué fórmula utilizas para detectar cuando el buffer de la cola está lleno?
+Se compara el tamaño actual de la cola con la capacidad de esta
+
+3. ¿Cuál es la complejidad para el mejor y peor caso de los métodos mira, forma y
+atiende? Justifica.
+Mejor caso:
+	mira:  es O(1), ya que en el caso en que la cola esté vacía, se devuelve directamente null 
+	atiende: es O(1), que se da cuando la cola está vacía y simplemente se devuelve null
+	forma:   O(1), ya queen el mejor caso, el buffer de la cola aún no está lleno y no es necesario expandirlo. 
+
+Peor caso:
+
+	mira:  O(1) ya que simplemente accede al primer elemento de la cola y devuelve su valor.
+	atiende:   O(1). Esto se debe a que la operación de eliminar un elemento de la cola se realiza tomando el elemento en la posición prim, que se encuentra al inicio de la cola
+	forma:  El tamaño del arreglo original es igual al tamaño máximo de la cola, por lo que la complejidad es O(n). Esto ocurre cuando el buffer está lleno y se necesita expandir el tamaño del arreglo antes de agregar un nuevo elemento. 
