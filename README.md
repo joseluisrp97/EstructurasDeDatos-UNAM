@@ -26,7 +26,7 @@ En este repositorio, también encontrarás recursos adicionales, como lecturas r
 
 ## 📬 Contacto
 
-Si tienes alguna pregunta o comentario, no dudes en abrir un Issue o enviar una Pull Request. También puedes contactarme directamente a través de [mi correo electrónico](mailto:rayaperezjoseluis@gmail.com).
+Si tienes alguna pregunta o comentario, no dudes en abrir un Issue o enviar una Pull Request. También puedes contactarme directamente a través de [mi correo](mailto:rayaperezjoseluis@gmail.com).
 
 ## ⭐ Contribuciones
 
