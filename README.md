@@ -1,4 +1,6 @@
 # EstructurasDeDatos-UNAM
+[![Java](https://img.shields.io/badge/Java-Standard%20Edition-orange.svg)](https://www.java.com/)
+[![UNAM](https://img.shields.io/badge/UNAM-Facultad%20de%20Ciencias-blueviolet)](https://www.fciencias.unam.mx/)
 
 Bienvenido al repositorio de mi curso de Estructuras de Datos en la UNAM, desarrollado principalmente en el lenguaje de programación Java. A lo largo de este curso, estudiaremos diversas estructuras de datos, construyéndolas desde cero y explorando múltiples estrategias para su implementación y optimización.
 
