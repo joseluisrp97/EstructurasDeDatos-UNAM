@@ -1,10 +1,10 @@
 # EstructurasDeDatos-UNAM
 
-Bienvenido al repositorio de mi curso de Estructuras de Datos en la UNAM, desarrollado principalmente en el lenguaje de programación Java. A lo largo de este curso, nos sumergimos en el corazón de diversas estructuras de datos, construyéndolas desde cero y explorando múltiples estrategias para su implementación y optimización.
+Bienvenido al repositorio de mi curso de Estructuras de Datos en la UNAM, desarrollado principalmente en el lenguaje de programación Java. A lo largo de este curso, estudiaremos diversas estructuras de datos, construyéndolas desde cero y explorando múltiples estrategias para su implementación y optimización.
 
 ## 🚀 Sobre este Repositorio
 
-Este espacio alberga una serie de prácticas y proyectos que ilustran la teoría y la aplicación práctica de las estructuras de datos. Cada práctica aborda una estructura de datos específica, desentrañando su funcionamiento interno y proporcionando implementaciones sólidas y eficientes. Los proyectos, por otro lado, nos permiten ver estas estructuras en acción, resolviendo problemas del mundo real y mostrando el poder y la flexibilidad que las estructuras de datos pueden ofrecer en el desarrollo de software.
+Aqui se encuentran una serie de prácticas y proyectos que ilustran la teoría y la aplicación práctica de las estructuras de datos. Cada práctica aborda una estructura de datos específica, desentrañando su funcionamiento interno y proporcionando implementaciones sólidas y eficientes. Los proyectos, por otro lado, nos permiten ver estas estructuras en acción, resolviendo problemas del mundo real y mostrando el poder y la flexibilidad que las estructuras de datos pueden ofrecer en el desarrollo de software.
 
 ## 🛠️ Estructuras Exploradas
 
