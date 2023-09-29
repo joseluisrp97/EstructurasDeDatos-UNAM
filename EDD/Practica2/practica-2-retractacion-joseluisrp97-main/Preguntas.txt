@@ -1,0 +1,7 @@
+1. ¿Es forzoso que el agente recorra todo el laberinto para encontrar la meta? ¿Por qué?
+No lo es, en cuanto el agente llegue a la meta, este se detendrá. Claro existe la posibilidad de que este si recorra todo el laberinto. Por ejemplo si el laberinto es pequeño, puede que si el agente no encuentre la meta a la primera, vaya explorando opciones y puede que este llegue a recorrer todo el laberinto. Puede pasar pero la probabilidad depende de la construcción del laberinto
+
+
+2. ¿Es posible que el agente encuentre la ruta en el primer intento? De ser así, ¿cuándo sucedería esto?
+Claro que puede pasar, por ejemplo si el agente se encuentra en el caso base o al lado de la meta, la probabilidad de que esto suceda depende de la construcción del laberinto. Digamos, la probabilidad de que esto ocurra disminuye de acuerdo al tamaño del laberinto, es decir, mientras más pequeño sea, más serán las posibilidades de que el agente llegue a la meta en el primer intento.
+

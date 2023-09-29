@@ -1,0 +1,20 @@
+1. ¿Qué estructuras de datos incluye la API de Java dentro del paquete que importas,java.util?
+Listas
+Conjuntos
+Mapas
+Colas
+Pilas
+
+2. ¿Cuál crees que es el objetivo de la interfaz Collection? ¿Por qué no hacer que cada estructura defina sus propios métodos?
+Al definir los métodos comunes en la interfaz Collection, simplifica la programación y reduce la complejidad del código, pues se proporciona una estructura ya definida que se puede reutilizar
+
+
+3. ¿Qué métodos permite la interfaz Collection que su funcionalidad sea opcional? ¿Qué deben hacer estos métodos opcionales si no se implementa su funcionalidad? ¿Por qué crees que son opcionales?
+add, remove, clear, containsAll, addAll, removeAll, retainAll. 
+Si no se implementa un método opcional, se debe implementar por defecto
+Son opcionales para dar flexibilidad y permitir que las estructuras se adapten a diferentes propósitos.
+
+
+
+
+

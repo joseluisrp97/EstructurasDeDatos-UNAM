@@ -1,0 +1,11 @@
+1. Explica ¿cuál es el peor caso en tiempo de ejecución para la operación
+aseguraCapacidad?
+El mejor caso es cuando n<this.capacidad, pues ahí habríamos terminado.
+Ahota, el peor caso es cuando a la hora de realizar la operación i, sea diferente de 0, pues además tenemos que hacer más operaciones y un cast, tomando más tiempo de ejecución
+
+2. ¿Qué problema se presenta si, después de haber incrementado el tamaño del arreglo en varias ocasiones, el usuario remueve la mayoría de los elementos del Vector, quedando un gran espacio vacío al final? ¿Cómo lo resolverías?
+Haría otro método que busqué cuales son los elementos diferentes de null. Después usaría aseguraCapacidad para recalcular la capacidad, pero en vez de usar la capacidad actual del arreglo, utilizaría el número de elementos del arreglo, sin contar los null.
+
+
+
+

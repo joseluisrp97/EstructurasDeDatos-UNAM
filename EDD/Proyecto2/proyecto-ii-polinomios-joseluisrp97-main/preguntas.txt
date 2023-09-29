@@ -1,0 +1,43 @@
+Tipo de Dato Abstracto (TDA): Monomio
+
+Definición:
+Un monomio es un término algebraico que consta de un coeficiente numérico y una variable con un exponente entero no negativo. El coeficiente puede ser cualquier número real y el exponente es un número entero no negativo. Un monomio se representa de la siguiente manera:
+
+c * x^n
+
+donde:
+c = coeficiente (un número real)
+x = variable (representación simbólica)
+n = exponente (un número entero no negativo)
+
+Operaciones básicas en un Monomio:
+1. Crear un monomio con un coeficiente y un exponente específicos.
+2. Obtener el coeficiente y el exponente de un monomio.
+3. Comparar dos monomios para determinar si son iguales.
+4. Sumar o restar monomios con exponentes iguales.
+5. Multiplicar o dividir monomios.
+6. Evaluar el monomio en un valor específico de la variable.
+7. Derivar o integrar el monomio.
+
+Tipo de Dato Abstracto (TDA): Polinomio
+
+Definición:
+Un polinomio es una expresión algebraica que consiste en la suma de uno o más monomios. Un polinomio se representa como la suma de sus monomios ordenados de acuerdo a sus exponentes, generalmente en forma decreciente:
+
+P(x) = a_n * x^n + a_(n-1) * x^(n-1) + ... + a_1 * x^1 + a_0
+
+donde:
+P(x) = el polinomio en la variable x
+a_n, a_(n-1), ..., a_1, a_0 = coeficientes reales de los monomios
+n = grado del polinomio (el exponente más alto en el polinomio)
+
+Operaciones básicas en un Polinomio:
+1. Crear un polinomio a partir de una lista de monomios.
+2. Obtener el grado del polinomio y los coeficientes de los monomios.
+3. Comparar dos polinomios para determinar si son iguales.
+4. Sumar o restar polinomios.
+5. Multiplicar o dividir polinomios.
+6. Evaluar el polinomio en un valor específico de la variable.
+7. Derivar o integrar el polinomio.
+8. Encontrar las raíces del polinomio.
+9. Simplificar el polinomio combinando monomios con exponentes iguales.

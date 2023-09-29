@@ -1,0 +1,52 @@
+1. Explique cómo generó cada uno de los peores casos y por qué es el peor caso para
+ese algoritmo, además de mencionar el orden de la complejidad del peor caso.
+
+BubbleSort:
+El peor casoes cuando el arreglo está ordenado de forma descendente. 
+Esto se debe a que en cada iteración del algoritmo, el elemento más grande se desplaza hacia el final del arreglo,
+lo que implica realizar un intercambio por cada elemento del arreglo. El peor caso tiene complejidad O(n^2), ya que en cada iteración se recorre todo el arreglo.
+
+InsertionSort:
+El peor caso  es cuando el arreglo está ordenado de forma inversa y cada elemento está a una distancia de 1 posición de su posición final. 
+Se deben realizar n comparaciones y n movimientos para cada elemento. El peor caso tiene complejidad O(n^2).
+
+QuickSort:
+El peor caso es cuando el arreglo está ordenado de forma ascendente o descendente, ya que en cada partición se selecciona el último elemento del subarreglo como pivote
+y todos los demás elementos quedan en un solo subarreglo. El peor caso tiene  complejidad  O(n log n).
+
+MergeSort:
+El peor caso es similar al de QuickSort, cuando el arreglo está ordenado de forma ascendente o descendente. En cada iteración, el arreglo se divide en dos partes iguales 
+y se compara y mezcla cada subarreglo. El peor caso tiene  complejidad  O(n log n).
+
+SelectionSort:
+El peor caso es cuando el arreglo está ordenado de forma inversa, ya que en cada iteración se debe buscar el elemento más grande en el subarreglo no ordenado,
+ lo que implica comparar cada elemento del subarreglo. El peor caso tiene  complejidad O(n^2)
+
+
+2. Explique cuáles son los mejores casos para los mismos algoritmos y cuál es su
+complejidad.
+
+Para BubbleSort, InsertionSort, QuickSort, MergeSort y SelectionSort, el mejor caso es cuando el arreglo ya está ordenado.
+Con complejidad  O(n) para BubbleSort e InsertionSort, y O(n log n) para QuickSort, MergeSort y SelectionSort.
+
+
+3. ¿En qué algoritmos la complejidad en el peor y el mejor caso es la misma?¿Cuál
+es ésta?
+En QuickSort y MergeSort
+
+
+
+4. ¿En qué algoritmos difiere? Mencione sus complejidades en el mejor y peor caso.
+BubbleSort, InsertionSort y SelectionSort
+
+BubbleSort:
+El peor casoes cuando el arreglo está ordenado de forma descendente. 
+Esto se debe a que en cada iteración del algoritmo, el elemento más grande se desplaza hacia el final del arreglo,
+lo que implica realizar un intercambio por cada elemento del arreglo. 
+InsertionSort:
+El peor caso  es cuando el arreglo está ordenado de forma inversa y cada elemento está a una distancia de 1 posición de su posición final. 
+Se deben realizar n comparaciones y n movimientos para cada elemento.
+
+SelectionSort:
+El peor caso es cuando el arreglo está ordenado de forma inversa, ya que en cada iteración se debe buscar el elemento más grande en el subarreglo no ordenado,
+ lo que implica comparar cada elemento del subarreglo.

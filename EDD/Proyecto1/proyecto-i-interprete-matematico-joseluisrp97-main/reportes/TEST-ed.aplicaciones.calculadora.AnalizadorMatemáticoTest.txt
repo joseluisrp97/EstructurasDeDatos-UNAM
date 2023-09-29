@@ -1,0 +1,13 @@
+Testsuite: ed.aplicaciones.calculadora.AnalizadorMatemáticoTest
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.02 sec
+------------- Standard Output ---------------
++ 43 -9.8 -> [+, 43, -9.8]
++ 5 -1 -> [+, 5, -1]
+(5 + -1) -> [(, 5, +, -1, )]
+( 5 + -1 ) -> [(, 5, +, -1, )]
+------------- ---------------- ---------------
+
+Testcase: prefijaSencilla2 took 0.008 sec
+Testcase: prefijaSencilla took 0 sec
+Testcase: infijaParéntesis took 0.001 sec
+Testcase: infijaParéntesisConEspacios took 0 sec

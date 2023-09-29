@@ -1,0 +1,22 @@
+1. Explica la estructura de tu código, explica en más detalle tu implementación del método obtenerÍndice.
+
+Primero construí el método constructor que recibe como parámetro un arreglo de enteros que representa las dimensiones del arreglo multidimensional y verifica que ninguno de los valores sea negativo.
+El método obtenerElemento devuelve el elemento almacenado en una posición específica del arreglo.
+El método almacenarElemento almacena un elemento en una posición específica del arreglo.
+El método obtenerÍndice toma como entrada un array de enteros llamado "índices" y devuelve un número entero. 
+Primero revisamos que cada índice está dentro del rango válido para la dimensión correspondiente. Si un índice está fuera del rango, se lanza una excepción IndexOutOfBoundsException que indica qué índice está fuera del rango.
+Una vez verificado esto, se realiza el cálculo del índice. 
+Se tiliza la fórmula polinómica para calcular la posición correspondiente en el arreglo unidimensional. El ciclo comienza en la última dimensión del arreglo y avanza hacia la primera. El valor del índice se calcula multiplicando el valor actual del índice por una variable "x" y sumando el resultado a una variable "poli". La variable "x" se inicializa en 1 y se multiplica por el tamaño de la dimensión actual en cada iteración.
+Finalmente, se devuelve el valor de "poli", que representa el índice de la posición de la matriz
+
+2. ¿Cuál es el orden de complejidad de cada método?
+
+obtenerElemento y almacenarElemento tienen orden de complejidad O(1), pues solo se accede a un elemento y almacena otro, respectivamente. Esto será constante.
+obtenerÍndice tiene orden de complejidad O(n) donde n es la cantidad de dimensiones del arreglo. El método realiza un bucle for que recorre el arreglo de índices, lo que significa que el tiempo de ejecución crece linealmente con la cantidad de dimensiones del arreglo.
+
+3. ¿Qué consecuencias negativas pudiera tener si no verificas que los índices en cada dimensión estén contenidos en el rango válido? En particular, describe un escenario en el que el código compile y ejecute sin objeciones, pero el resultado sea incorrecto.
+
+Podría ocurrir que se acceda a posiciones del arreglo que no existen o que se sobrescriban elementos en posiciones del arreglo que no deberían ser modificadas. 
+Ejemplo, se tiene un arreglo unidimensional de tamaño 5 y se intenta acceder al elemento en la posición 7. Si se está tratando de acceder a un elemento que no existe en el arreglo, se podría obtener un valor aleatorio de la memoria.  
+
+

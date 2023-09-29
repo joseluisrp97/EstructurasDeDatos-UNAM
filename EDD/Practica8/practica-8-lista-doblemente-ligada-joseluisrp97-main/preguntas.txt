@@ -1,0 +1,18 @@
+1. Explica la diferencia conceptual entre los tipos Nodo<E> y E.
+E: Representa un tipo de dato genérico que puede ser cualquier tipo de objeto 
+Nodo<E>:es una unidad que guarda la información y también permite navegar por la lista doblemente ligada.
+
+2. ¿Por qué ListIterator sólo permite remover o cambiar datos después de llamar
+previous o next?
+Cuando se crea un ListIterator, este no está posicionado en ningún elemento específico. Al llamar a los métodos previous() o next(), el iterador se posiciona en un elemento de la lista. Esto permite que el iterador sepa exactamente cuál elemento debe ser modificado o eliminado.
+
+3. Si mantenemos los elementos ordenados alfabéticamente, por ejemplo, ¿cuándo
+sería más eficiente agregar un elemento desde el inicio o el final de la lista?
+Depende:
+Desde el inicio: si el elemento a insertar tiene un valor alfabético menor o igual al primer elemento de la lista. 
+Desde el final:  si el elemento a insertar tiene un valor alfabético mayor o igual al último elemento de la lista. 
+
+4. ¿En qué casos sería más eficiente obtener un elemento desde el inicio de la lista o desde el final de la lista?
+
+Desde el inicio: si el elemento que buscamos está cerca del inicio de la lista o es el primer elemento.
+Desde el final: si el elemento que buscamos está cerca del final de la lista o es el último elemento. 
